@@ -1,0 +1,28 @@
+{
+  "name": "Blog2",
+  "version": "1.0.0",
+  "description": "version2 of learn blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinfazhu-mygit/Blog2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinfazhu-mygit/Blog2/issues"
+  },
+  "homepage": "https://github.com/jinfazhu-mygit/Blog2#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "watchpack": "^2.1.1"
+  }
+}
