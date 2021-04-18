@@ -1,3 +1,8 @@
+const moment = require('moment');
+moment.locale("zh-cn")
+const secrtct=require('./config/secrect');
+const secrect = require('./secrect');
+
 module.exports={
     
   '@vuepress/last-updated':
@@ -20,8 +25,8 @@ module.exports={
     // 其他的 Vssue 配置
     owner: 'jinfazhu-mygit',
     repo: 'Blog2',
-    clientId: '764464c6f8a6deafe7e6',
-    clientSecret: 'f10a93e064f969fb589b4d7b7aa2ea46fadb583d',
+    clientId: secrect.clientId,
+    clientSecret: secrect.clientSecret,
   },
   '@vuepress/back-to-top': true
 }
